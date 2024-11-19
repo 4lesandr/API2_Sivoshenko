@@ -1,0 +1,32 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A brief description of my project",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/username/my-project.git"
+    },
+    "keywords": [
+        "example",
+        "nodejs",
+        "project"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/username/my-project/issues"
+    },
+    "homepage": "https://github.com/username/my-project#readme",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "express": "^4.21.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
